@@ -17,6 +17,9 @@ console.log(
   `Page title is: '${pageTitle}' - evaluated by Chrome extension's 'contentScript.js' file`
 );
 
+
+
+
 // Communicate with background file by sending a message
 chrome.runtime.sendMessage(
   {

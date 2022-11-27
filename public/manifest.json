@@ -14,7 +14,7 @@
   },
   "action": {
     "default_title": "Ocr Translator",
-    "default_popup": "popup.html"
+    "default_popup": "popup.jsx"
   },
   "permissions": ["storage"],
   "content_scripts": [

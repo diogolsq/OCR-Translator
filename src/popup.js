@@ -24,11 +24,12 @@ document.getElementById('close').addEventListener('click', function() {
 //   };
 
 // adding a listener to the button id capture and open a print box
-document.getElementById('capture').addEventListener('click', function() {
+document.getElementById('capture').addEventListener('click', function(event) {
     // capture();
-    html2canvas(document.body).then(function(canvas) {
-        document.body.appendChild(canvas);
-    });
+    // html2canvas(event.target).then(function(canvas) {
+    //     document.body.appendChild(canvas);
+    // });
+
 
 });
 
